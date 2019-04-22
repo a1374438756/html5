@@ -1,0 +1,666 @@
+header{
+	width: 100%;
+	height: 44px;
+	background:#313131;
+	position: fixed;
+	top:0;
+}
+header>ul{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+header>ul>li{
+	width: 36px;
+	height: 44px;
+	position: relative;
+}
+header>ul>li:nth-child(2){
+	width: 46px;
+}
+header>ul>li:nth-child(3){
+	width: 47px;
+}
+header>ul>li:nth-child(4){
+	width: 64px;
+}
+header>ul>li:nth-child(5){
+	width: 60px;
+}
+header>ul>li:nth-child(6){
+	width: 57px;
+}
+header>ul>li:nth-child(7){
+	width: 66px;
+}
+header>ul>li:nth-child(9){
+	width: 34px;
+}
+header>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 44px;
+	font-size: 14px;
+	color:#fff;
+	transition: color 0.15s linear;
+}
+header>ul>li:nth-child(1)>a{
+	background: url(../img/logo2.svg) center no-repeat;
+	transition: background 0.15s linear;
+}
+header>ul>li:nth-child(8)>a{
+	background: url(../img/sousuo.svg) center no-repeat;
+	transition: background 0.15s linear;
+}
+header>ul>li:nth-child(9)>a{
+	background: url(../img/shangdian.svg) center no-repeat;
+	transition: background 0.15s linear;
+}
+header>ul>li>a:hover{
+	color:#B6B6B6;
+}
+header>ul>li:nth-child(8)>a:hover{
+	background: url(../img/sousuo2.svg) center no-repeat;
+}
+header>ul>li:nth-child(9)>a:hover{
+	background: url(../img/shangdian2.svg) center no-repeat;
+}
+main{
+	margin-top:44px;
+	width: 100%;
+	height: 3860px;
+	background: #fff
+}
+main>.Discount{
+	width: 100%;
+	height: 300px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 15px solid #222222;
+	box-sizing:border-box;
+}
+main>.Discount>.Discount_wrap{
+	width: 1000px;
+	height: 200px;
+}
+main>.Discount>.Discount_wrap>.Title{
+	width: 95px;
+	height: 36px;
+	border: 1px solid #bbb;
+	border-radius: 4px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 35px;
+	box-sizing:border-box;
+	color:#bbb;
+	font-size:15px;
+}
+main>.Discount>.Discount_wrap>h1{
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	font-weight:300;
+	margin-top:12px;
+	line-height: 30px;
+}
+main>.Discount>.Discount_wrap>h2{
+	text-align: center;
+	font-size: 17px;
+	color: #fff;
+	font-weight:300;
+	margin-top:12px;
+}
+main>.Discount>.Discount_wrap>a{
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	color: #66BBFF;
+	font-weight:300;
+	margin-top:12px;
+}
+main>.Discount>.Discount_wrap>a>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.Discount>.Discount_wrap>a:hover{
+	text-decoration:underline;
+}
+main>.iPhoneXR{
+	width: 100%;
+	height: 580px;
+	background:url(../img/iphone_xr_5e40f_large.jpg) center bottom no-repeat #000;
+}
+main>.iPhoneXR>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+main>.iPhoneXR>a>.text{
+	width: 100%;
+	height: 150px;
+	padding-top:50px;
+}
+main>.iPhoneXR>a>.text>h1{
+	text-align: center;
+	color:#fff;
+	font-size:44px;
+	font-weight: 100;
+}
+main>.iPhoneXR>a>.text>h1>span{
+	display: inline-block;
+	width: 35px;
+	height: 34px;
+	background: url(../img/XR.png)no-repeat;
+}
+main>.iPhoneXR>a>.text>h2{
+	text-align: center;
+	color:#fff;
+	font-size:20px;
+	font-weight: 100;
+	line-height: 30px;
+}
+main>.iPhoneXR>a>.text>h3{
+	text-align: center;
+	font-size: 17px;
+	color: #66BBFF;
+	font-weight:300;
+	margin-top:12px;
+}
+main>.iPhoneXR>a>.text>h3>i{
+	font-style: normal;
+}
+main>.iPhoneXR>a>.text>h3>i:first-child{
+	padding-right: 45px;
+}
+main>.iPhoneXR>a>.text>h3>i:hover{
+	text-decoration:underline;
+}
+main>.iPhoneXR>a>.text>h3>i>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.iPhoneXS{
+	width: 100%;
+	height: 580px;
+	background:url(../img/iphone_xs_0afef_large.jpg) center bottom no-repeat #000;
+}
+main>.iPhoneXS>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+main>.iPhoneXS>a>.text{
+	width: 100%;
+	height: 185px;
+	padding-top:47px;
+}
+main>.iPhoneXS>a>.text>h1{
+	text-align: center;
+	color:#fff;
+	font-size:44px;
+	font-weight: 100;
+}
+main>.iPhoneXS>a>.text>h1>span{
+	display: inline-block;
+	width: 35px;
+	height: 34px;
+	background: url(../img/XS.png)no-repeat;
+}
+main>.iPhoneXS>a>.text>h2{
+	text-align: center;
+	color:#fff;
+	font-size:20px;
+	font-weight: 100;
+	line-height: 30px;
+}
+main>.iPhoneXS>a>.text>h3{
+	text-align: center;
+	font-size: 17px;
+	color: #66BBFF;
+	font-weight:300;
+	margin-top:12px;
+}
+main>.iPhoneXS>a>.text>h3>i{
+	font-style: normal;
+}
+main>.iPhoneXS>a>.text>h3>i:first-child{
+	padding-right: 45px;
+}
+main>.iPhoneXS>a>.text>h3>i:hover{
+	text-decoration:underline;
+}
+main>.iPhoneXS>a>.text>h3>i>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.watch{
+	width: 100%;
+	height: 580px; 
+	background: #FAFAFA;
+	overflow:hidden;
+	margin-top:15px;
+}
+main>.watch>a>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+main>.watch>a>.text{
+	width: 50%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	float: left;
+}
+main>.watch>a>.text>.logo{
+	width: 205px;
+	height: 78px;
+	background: url(../img/apple_watch_series_4_logo_hero_d4753_large.jpg)no-repeat;
+}
+main>.watch>a>.text>h1{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 36px;
+	margin-top:10px;
+	color:#000;
+}
+main>.watch>a>.text>h3{
+	text-align: center;
+	font-size: 17px;
+	color: #66BBFF;
+	font-weight:300;
+	margin-top:12px;
+}
+main>.watch>a>.text>h3>i{
+	font-style: normal;
+}
+main>.watch>a>.text>h3>i:first-child{
+	padding-right: 45px;
+}
+main>.watch>a>.text>h3>i:hover{
+	text-decoration:underline;
+}
+main>.watch>a>.text>h3>i>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.watch>a>.picture{
+	width: 50%;
+	height:580px;
+	float: right;
+}
+main>.watch>a>.picture>span{
+	display: inline-block;
+	width: 340px;
+	height: 624px;
+	background: url(../img/apple_watch_series_4_4aeff_largetall.jpg)no-repeat;
+	background-size: cover;
+	background-position: 0 -42px;
+}
+main>.details{
+	width: 100%;
+	height: 1800px;
+}
+main>.details>ul{
+	width: 100%;
+	height: 1800px;
+	margin:7px auto;
+}
+main>.details>ul>li{
+	width: 49%;
+	height: 580px;
+	float:left;
+	background: #FAFAFA;
+	margin: 0.5%;
+}
+main>.details>ul>li:nth-child(1){
+	background: url(../img/tile_large.jpg);
+	background-position: -160px 0;
+}
+main>.details>ul>li:nth-child(2){
+	background: url(../img/tile_cny_large.jpg)center no-repeat;
+}
+main>.details>ul>li:nth-child(3){
+	background: url(../img/tiles_generic_large.jpg)center no-repeat;
+}
+main>.details>ul>li:nth-child(4){
+	background: url(../img/ipad_pro__7b6504bb31_large.jpg) center bottom no-repeat #fafafa;
+}
+main>.details>ul>li:nth-child(5){
+	background: url(../img/macbook_air__2f52481d_large.jpg) center bottom no-repeat #fafafa;
+}
+main>.details>ul>li:nth-child(6){
+	background: url(../img/homepod_large.jpg) center bottom no-repeat #fafafa;
+}
+main>.details>ul>li:nth-child(1)>p{
+	font-size:35px;
+	text-align: center;
+	margin-top:47px;
+}
+main>.details>ul>li:nth-child(1)>.text{
+	text-align: center;
+	margin-top: 20px
+}
+main>.details>ul>li:nth-child(1)>.text>a{
+	font-size: 16px;
+	color: #66BBFF;
+	font-weight:300;
+	
+}
+main>.details>ul>li:nth-child(1)>.text>a>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.details>ul>li:nth-child(1)>.text>a:hover{
+	text-decoration:underline;
+}
+main>.details>ul>li:nth-child(2)>p{
+	font-size:35px;
+	text-align: center;
+	margin-top:430px;
+	color:#fff;
+}
+main>.details>ul>li:nth-child(2)>h1{
+	font-size:20px;
+	text-align: center;
+	margin-top:10px;
+	font-weight: 100;
+	color:#fff;
+}
+main>.details>ul>li:nth-child(2)>.text{
+	text-align: center;
+	margin-top: 20px
+}
+main>.details>ul>li:nth-child(2)>.text>a{
+	font-size: 14px;
+	color: #fff;
+	font-weight:300;
+}
+main>.details>ul>li:nth-child(2)>.text>a:hover{
+	text-decoration:underline;
+}
+main>.details>ul>li:nth-child(2)>.text>a:nth-child(1)>span{
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	background: url(../img/bofang.png)no-repeat;
+	vertical-align: middle;
+}
+main>.details>ul>li:nth-child(2)>.text>a:nth-child(2)>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou-bai.png)no-repeat;
+}
+main>.details>ul>li:nth-child(3)>p{
+	font-size:35px;
+	text-align: center;
+	margin-top:52px;
+	font-weight: 600;
+}
+main>.details>ul>li:nth-child(3)>h1{
+	font-size:17px;
+	text-align: center;
+	margin-top:10px;
+	font-weight: 100;
+	line-height: 28px;
+}
+main>.details>ul>li:nth-child(3)>.text{
+	text-align: center;
+	margin-top: 5px
+}
+main>.details>ul>li:nth-child(3)>.text>a{
+	font-size: 14px;
+	color:#000;
+	font-weight:300;
+	
+}
+main>.details>ul>li:nth-child(3)>.text>a>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou-hei.png)no-repeat;
+}
+main>.details>ul>li:nth-child(3)>.text>a:hover{
+	text-decoration:underline;
+}
+main>.details>ul>li:nth-child(4)>p{
+	font-size:35px;
+	text-align: center;
+	margin-top:52px;
+	font-weight: 600;
+}
+main>.details>ul>li:nth-child(4)>h1{
+	font-size:17px;
+	text-align: center;
+	margin-top:10px;
+	font-weight: 100;
+	line-height: 28px;
+}
+main>.details>ul>li:nth-child(4)>.text{
+	text-align: center;
+	margin-top: 20px
+}
+main>.details>ul>li:nth-child(4)>.text>a{
+	font-size: 14px;
+	color:#66BBFF;
+	font-weight:300;
+}
+main>.details>ul>li:nth-child(4)>.text>a:hover{
+	text-decoration:underline;
+}
+main>.details>ul>li:nth-child(4)>.text>a:nth-child(1)>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.details>ul>li:nth-child(4)>.text>a:nth-child(2)>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.details>ul>li:nth-child(5)>p{
+	font-size:35px;
+	text-align: center;
+	margin-top:52px;
+	font-weight: 600;
+}
+main>.details>ul>li:nth-child(5)>h1{
+	font-size:17px;
+	text-align: center;
+	margin-top:10px;
+	font-weight: 100;
+	line-height: 28px;
+}
+main>.details>ul>li:nth-child(5)>.text{
+	text-align: center;
+	margin-top: 20px
+}
+main>.details>ul>li:nth-child(5)>.text>a{
+	font-size: 14px;
+	color:#66BBFF;
+	font-weight:300;
+}
+main>.details>ul>li:nth-child(5)>.text>a:hover{
+	text-decoration:underline;
+}
+main>.details>ul>li:nth-child(5)>.text>a:nth-child(1)>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.details>ul>li:nth-child(5)>.text>a:nth-child(2)>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.details>ul>li:nth-child(6)>p{
+	font-size:35px;
+	text-align: center;
+	margin-top:52px;
+	font-weight: 600;
+}
+main>.details>ul>li:nth-child(6)>h1{
+	font-size:17px;
+	text-align: center;
+	margin-top:10px;
+	font-weight: 100;
+	line-height: 28px;
+}
+main>.details>ul>li:nth-child(6)>.text{
+	text-align: center;
+	margin-top: 20px
+}
+main>.details>ul>li:nth-child(6)>.text>a{
+	font-size: 14px;
+	color:#66BBFF;
+	font-weight:300;
+}
+main>.details>ul>li:nth-child(6)>.text>a:hover{
+	text-decoration:underline;
+}
+main>.details>ul>li:nth-child(6)>.text>a:nth-child(1)>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+main>.details>ul>li:nth-child(6)>.text>a:nth-child(2)>span{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/jiantou.png)no-repeat;
+}
+footer{
+	width: 100%;
+	height: 620px;
+	background: #F2F2F2;
+}
+footer>.footmain{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+footer>.footmain>p{
+	padding-top: 17px;
+	padding-bottom: 11px;
+	font-size:12px;
+	line-height: 16px;
+	color:#888;
+	border-bottom: 1px solid #d6d6d6;
+}
+footer>.footmain>ol{
+	width: 100%;
+	height: 318px;
+	margin-top:20px;
+}
+footer>.footmain>ol>li{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+footer>.footmain>ol>li>ul{
+	width: 100%;
+}
+footer>.footmain>ol>li>h1{
+	font-size:12px;
+	margin-bottom:10px;
+}
+footer>.footmain>ol>li>ul>li{
+	font-size: 12px;
+	margin-bottom:15px;
+}
+footer>.footmain>ol>li>ul>li>a{
+	color:#555;
+}
+footer>.footmain>ol>li>ul>li>a:hover{
+	text-decoration:underline;
+}
+footer>.footmain>ol>li>h1:nth-child(3){
+	margin-top:35px;
+}
+footer>.footmain>.text{
+	margin-top:34px;
+	font-size:13px;
+	color:#555;
+	padding-bottom: 8px;
+	border-bottom:  1px solid #d6d6d6;
+}
+footer>.footmain>.text>a{
+	font-size:12px;
+}
+footer>.footmain>.text>a:hover{
+	text-decoration:underline;
+}
+footer>.footmain>.information{
+	width: 100%;
+	height: 21px;
+	margin-top:10px;
+}
+footer>.footmain>.information>span{
+	display: inline-block;
+	font-size:12px;
+	color:#888;
+	line-height: 21px;
+}
+footer>.footmain>.information>ul{
+	padding-left: 20px;
+	display: inline-block;
+	width: 390px;
+	height: 21px;
+	vertical-align: middle;
+}
+footer>.footmain>.information>ul>li{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 21px;
+	padding-left: 3%;
+	padding-right: 3%;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #d6d6d6;
+	box-sizing: border-box;
+}
+footer>.footmain>.information>ul>li>a{
+	color:#555;
+}
+footer>.footmain>.information>ul>li>a:hover{
+	text-decoration:underline;
+}
+footer>.footmain>span{
+	display: block;
+	font-size:12px;
+	color:#888;
+	line-height: 21px;
+	margin-top:10px;
+}
+footer>.footmain>span>a{
+	color:#888;
+}
+footer>.footmain>span>a:hover{
+	text-decoration:underline;
+}
