@@ -1,0 +1,483 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #F2F2F2; }
+
+.banner {
+  width: 100%;
+  height: 4.24rem;
+  background: url(../img/banner.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden; }
+  .banner > .banner_head {
+    width: 100%;
+    height: 0.6666666667rem;
+    margin-top: 0.5333333333rem;
+    display: flex;
+    justify-content: space-around; }
+    .banner > .banner_head .Location {
+      width: 1.3333333333rem;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .banner > .banner_head .Location .bg {
+        width: 0.2666666667rem;
+        height: 0.3066666667rem;
+        background: url(../img/dingwei.png) no-repeat center;
+        background-size: cover; }
+      .banner > .banner_head .Location p {
+        font-size: 0.2666666667rem;
+        color: #fff;
+        line-height: 0.2666666667rem; }
+        .banner > .banner_head .Location p span {
+          display: inline-block;
+          width: 0.16rem;
+          height: 0.0933333333rem;
+          background: url(../img/jiantou.png) no-repeat center;
+          background-size: cover; }
+    .banner > .banner_head .search {
+      width: 6rem;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 0.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .banner > .banner_head .search .bg {
+        width: 0.3466666667rem;
+        height: 0.3466666667rem;
+        background: url(../img/sousuo.png) no-repeat center;
+        background-size: cover;
+        margin-left: 0.5333333333rem; }
+      .banner > .banner_head .search input {
+        width: 4.6666666667rem;
+        height: 0.4rem;
+        background: transparent;
+        border: 0;
+        outline: none;
+        font-size: 0.2666666667rem;
+        margin-right: 0.2666666667rem; }
+    .banner > .banner_head .Icon {
+      width: 1.1333333333rem;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .banner > .banner_head .Icon .information {
+        width: 0.5066666667rem;
+        height: 0.4666666667rem;
+        background: url(../img/xinxi.png) center no-repeat;
+        background-size: cover; }
+      .banner > .banner_head .Icon .Scan {
+        width: 0.5066666667rem;
+        height: 0.4666666667rem;
+        background: url(../img/saoyisao.png) center no-repeat;
+        background-size: cover; }
+
+.nav {
+  width: 100%;
+  height: 3rem;
+  background: #fff;
+  margin-top: 0.2666666667rem; }
+  .nav ul {
+    width: 100%;
+    height: 2.1333333333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .nav ul li {
+      width: 1.1466666667rem;
+      height: 100%; }
+      .nav ul li .bg {
+        width: 100%;
+        height: 1.1466666667rem;
+        background: url(../img/tejia.png) center no-repeat;
+        background-size: cover;
+        margin-top: 0.4rem; }
+      .nav ul li p {
+        font-size: 0.2666666667rem;
+        text-align: center;
+        padding-top: 0.2133333333rem; }
+  .nav .Roll {
+    width: 0.48rem;
+    height: 0.1333333333rem;
+    margin: 0.3333333333rem auto;
+    display: flex;
+    justify-content: space-between; }
+    .nav .Roll .button_01 {
+      display: inline-block;
+      width: 0.1333333333rem;
+      height: 0.1333333333rem;
+      border-radius: 50%;
+      background: #FDDB48; }
+    .nav .Roll .button_02 {
+      display: inline-block;
+      width: 0.1333333333rem;
+      height: 0.1333333333rem;
+      border-radius: 50%;
+      background: #959595; }
+
+.Activity_consultation {
+  width: 100%;
+  height: 16.1333333333rem;
+  background: #fff;
+  margin-top: 0.2666666667rem; }
+  .Activity_consultation header {
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center; }
+    .Activity_consultation header h1 {
+      width: 2rem;
+      height: 100%;
+      line-height: 1.2rem;
+      text-align: center;
+      font-size: 0.3466666667rem; }
+    .Activity_consultation header .bg {
+      width: 0.2933333333rem;
+      height: 0.2933333333rem;
+      background: url(../img/laba.png) center no-repeat;
+      background-size: cover; }
+    .Activity_consultation header span {
+      font-size: 0.2933333333rem;
+      margin-left: 0.2666666667rem; }
+      .Activity_consultation header span a {
+        color: #FD805E; }
+  .Activity_consultation .Activity_banner {
+    width: 100%;
+    height: 3.24rem;
+    background: url(../img/banner_activity.png) center no-repeat;
+    background-size: cover; }
+  .Activity_consultation .New_Arrivals {
+    width: 4.4666666667rem;
+    height: 1.5466666667rem;
+    background: url(../img/xinpintuijian.png) center no-repeat;
+    background-size: cover;
+    margin: 0.4rem auto; }
+  .Activity_consultation .details {
+    width: 100%;
+    height: 6.4rem;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .Activity_consultation .details .content {
+      width: 49%;
+      height: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center; }
+      .Activity_consultation .details .content .text_01 {
+        height: 0.9333333333rem; }
+        .Activity_consultation .details .content .text_01 h1 {
+          font-size: 0.2933333333rem;
+          color: #444444; }
+        .Activity_consultation .details .content .text_01 span {
+          display: block;
+          text-align: center;
+          font-size: 0.2133333333rem;
+          color: #A0A0A0;
+          padding-top: 0.1066666667rem; }
+      .Activity_consultation .details .content .bg {
+        width: 3.6533333333rem;
+        height: 2.2266666667rem;
+        background: url(../img/sanwenyu.png) center no-repeat;
+        background-size: cover; }
+      .Activity_consultation .details .content .text_02 {
+        text-align: center; }
+        .Activity_consultation .details .content .text_02 p {
+          font-size: 0.2133333333rem;
+          color: #444444; }
+        .Activity_consultation .details .content .text_02 h2 {
+          font-size: 0.2933333333rem;
+          color: #444;
+          font-weight: 100;
+          padding-top: 0.2666666667rem;
+          padding-bottom: 0.0266666667rem; }
+          .Activity_consultation .details .content .text_02 h2 span {
+            font-size: 0.5333333333rem;
+            color: #FD663B; }
+        .Activity_consultation .details .content .text_02 del {
+          display: block;
+          font-size: 0.2666666667rem;
+          color: #A0A0A0; }
+      .Activity_consultation .details .content .button {
+        width: 2.6666666667rem;
+        height: 0.5333333333rem;
+        border-radius: 0.2666666667rem;
+        background: #FBD42A;
+        text-align: center;
+        line-height: 0.5333333333rem;
+        font-size: 0.2933333333rem;
+        color: #444444;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .Activity_consultation .details .content .button span {
+          display: inline-block;
+          width: 0.3733333333rem;
+          height: 0.3733333333rem;
+          background: url(../img/gouwuche.png) center no-repeat;
+          background-size: cover; }
+    .Activity_consultation .details .Dividing_line {
+      width: 0.0133333333rem;
+      height: 5.3333333333rem;
+      background: #DCDCDC; }
+  .Activity_consultation .More_information {
+    width: 1.6133333333rem;
+    height: 0.8rem;
+    margin: 0.8666666667rem auto 0 auto; }
+    .Activity_consultation .More_information p {
+      font-size: 0.2666666667rem;
+      text-align: center;
+      color: #444; }
+    .Activity_consultation .More_information .bg {
+      width: 100%;
+      height: 0.2266666667rem;
+      background: url(../img/xiahuazhuangshi.png) center no-repeat;
+      background-size: cover;
+      margin-top: 0.0666666667rem; }
+
+.Daily_limit {
+  width: 100%;
+  height: 12.8533333333rem;
+  background: #fff;
+  margin-top: 0.2666666667rem;
+  overflow: hidden; }
+  .Daily_limit .tit {
+    width: 1.9866666667rem;
+    height: 1.0133333333rem;
+    margin: 0.2666666667rem auto 0 auto;
+    background: url(../img/kuang.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 1.0133333333rem;
+    font-size: 0.3733333333rem;
+    color: #444; }
+  .Daily_limit .content {
+    width: 100%;
+    height: 4.5066666667rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.6666666667rem; }
+    .Daily_limit .content .bg {
+      width: 3.36rem;
+      height: 100%;
+      background: url(../img/xiandingshu.png) center no-repeat;
+      background-size: cover; }
+    .Daily_limit .content .text h1 {
+      font-size: 0.4rem;
+      font-family: '微软雅黑';
+      color: #444; }
+    .Daily_limit .content .text p {
+      font-size: 0.24rem;
+      font-family: '微软雅黑';
+      color: #959595;
+      padding-top: 0.9333333333rem; }
+  .Daily_limit .Dividing_line {
+    width: 90%;
+    height: 0.0133333333rem;
+    background: #DCDCDC;
+    margin: 0.4rem auto 0 auto; }
+
+.Shop_must_buy {
+  widows: 100%;
+  height: 18.9333333333rem;
+  background: #fff;
+  margin-top: 0.2666666667rem; }
+  .Shop_must_buy .banner_bg {
+    width: 100%;
+    height: 3.6533333333rem;
+    background: url(../img/pic.png) center no-repeat;
+    background-size: cover; }
+  .Shop_must_buy .tit {
+    width: 2.7066666667rem;
+    height: 0.6666666667rem;
+    background: url(../img/jindianbimao.png) center no-repeat;
+    background-size: cover;
+    margin: 0.8rem auto 0 auto; }
+  .Shop_must_buy .content {
+    width: 100%;
+    height: 2.5066666667rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5333333333rem; }
+    .Shop_must_buy .content .bg {
+      width: 2.9466666667rem;
+      height: 2.5066666667rem;
+      background: url(../img/bg_01.png) center no-repeat;
+      background-size: cover; }
+    .Shop_must_buy .content .text {
+      width: 3.4933333333rem;
+      height: 1.5466666667rem;
+      background: url(../img/zi01.png) center no-repeat;
+      background-size: cover; }
+  .Shop_must_buy .Dividing_line {
+    width: 80%;
+    height: 0.0133333333rem;
+    background: #DCDCDC;
+    margin: 0.6666666667rem auto 0 auto; }
+  .Shop_must_buy ul {
+    width: 100%;
+    height: 3.4666666667rem;
+    margin-top: 0.6666666667rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .Shop_must_buy ul li {
+      text-align: center; }
+      .Shop_must_buy ul li p {
+        font-size: 0.2933333333rem;
+        color: #444; }
+      .Shop_must_buy ul li span {
+        display: block;
+        font-size: 0.2133333333rem;
+        color: #444;
+        padding-top: 0.1066666667rem; }
+      .Shop_must_buy ul li .bg {
+        width: 1.5733333333rem;
+        height: 1.5333333333rem;
+        background: url(../img/bg_02.png) center no-repeat;
+        background-size: cover;
+        margin: 0.16rem auto 0 auto; }
+      .Shop_must_buy ul li .text {
+        width: 2.4533333333rem;
+        height: 0.2266666667rem;
+        background: url(../img/text_01.png) center no-repeat;
+        background-size: cover;
+        margin: 0.3333333333rem auto 0 auto; }
+  .Shop_must_buy .Look_at_all {
+    width: 1.1066666667rem;
+    height: 0.8533333333rem;
+    background: url(../img/chakanquanbu.png) center no-repeat;
+    background-size: cover;
+    margin: 0.7333333333rem auto 0 auto; }
+
+.all_buying {
+  width: 100%;
+  height: 34.6666666667rem;
+  background: #fff;
+  margin-top: 0.2666666667rem; }
+  .all_buying .banner_01 {
+    width: 100%;
+    height: 4.8rem;
+    background: url(../img/1.png) center no-repeat;
+    background-size: cover; }
+  .all_buying .banner_02 {
+    width: 100%;
+    height: 4.8266666667rem;
+    background: url(../img/2.png) center no-repeat;
+    background-size: cover;
+    margin-top: 0.3333333333rem; }
+  .all_buying .banner_03 {
+    width: 100%;
+    height: 4.8rem;
+    background: url(../img/3.png) center no-repeat;
+    background-size: cover;
+    margin-top: 0.3333333333rem; }
+  .all_buying .tit {
+    width: 3.1066666667rem;
+    height: 0.6933333333rem;
+    background: url(../img/dajiadouzaimai.png) center no-repeat;
+    background-size: cover;
+    margin: 1.0666666667rem auto 0 auto; }
+  .all_buying .content {
+    width: 100%;
+    height: 3.7333333333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .all_buying .content .bg {
+      width: 3.0133333333rem;
+      height: 2.8666666667rem;
+      background: url(../img/putao.png) center no-repeat;
+      background-size: cover; }
+    .all_buying .content .text h1 {
+      font-size: 0.3733333333rem;
+      color: #444; }
+    .all_buying .content .text p {
+      font-size: 0.2933333333rem;
+      color: #A0A0A0;
+      padding-top: 0.1333333333rem; }
+    .all_buying .content .text .text_Sub_level {
+      width: 2.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .all_buying .content .text .text_Sub_level p {
+        font-size: 0.1866666667rem;
+        color: #444444;
+        padding: 0; }
+        .all_buying .content .text .text_Sub_level p span {
+          font-size: 0.4rem;
+          color: #FD663B; }
+      .all_buying .content .text .text_Sub_level del {
+        font-size: 0.1866666667rem;
+        color: #A0A0A0; }
+    .all_buying .content .text .bg {
+      width: 2.4rem;
+      height: 0.4533333333rem;
+      background: url(../img/jiarugouwuche.png) center no-repeat;
+      background-size: cover;
+      margin-top: 0.3466666667rem; }
+  .all_buying .Dividing_line {
+    width: 93%;
+    height: 0.0133333333rem;
+    background: #E5E5E5;
+    margin: 0 auto auto; }
+  .all_buying .See_more {
+    width: 1.6133333333rem;
+    height: 0.64rem;
+    background: url(../img/chakangengduo.png) center no-repeat;
+    background-size: cover;
+    margin: 0.6666666667rem auto 0 auto; }
+
+.foot_banner {
+  width: 100%;
+  height: 1.3333333333rem;
+  background: url(../img/welcome.png) center no-repeat;
+  background-size: cover;
+  margin-top: 0.4rem; }
+
+footer {
+  width: 100%;
+  height: 1.3333333333rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  footer .foot_nav01 {
+    width: 0.8533333333rem;
+    height: 1.0266666667rem;
+    background: url(../img/a.png) center no-repeat;
+    background-size: cover; }
+  footer .foot_nav02 {
+    width: 0.6933333333rem;
+    height: 1.0266666667rem;
+    background: url(../img/b.png) center no-repeat;
+    background-size: cover; }
+  footer .foot_nav03 {
+    width: 0.7333333333rem;
+    height: 1.0266666667rem;
+    background: url(../img/c.png) center no-repeat;
+    background-size: cover; }
+  footer .foot_nav04 {
+    width: 0.72rem;
+    height: 1.0266666667rem;
+    background: url(../img/d.png) center no-repeat;
+    background-size: cover; }
+
+/*# sourceMappingURL=index.css.map */
